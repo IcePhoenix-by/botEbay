@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A80674C3-4278-403F-8DA3-0DA3098BEFEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F592620A-1335-424D-9EB0-D8401AAD7F14}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "botEbay", "src\botEbay\botEbay.xproj", "{EA1F399E-7014-435B-A662-37CFC859BB9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA1F399E-7014-435B-A662-37CFC859BB9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1F399E-7014-435B-A662-37CFC859BB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1F399E-7014-435B-A662-37CFC859BB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1F399E-7014-435B-A662-37CFC859BB9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA1F399E-7014-435B-A662-37CFC859BB9B} = {A80674C3-4278-403F-8DA3-0DA3098BEFEC}
+	EndGlobalSection
+EndGlobal
